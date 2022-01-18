@@ -1,7 +1,7 @@
 # BestBuyScalper
 Notifies the user when a product on the Best Buy website goes from "Sold Out" to "Add to Cart" (on sale). 
 
-The recent tech/GPU shortage fueled the idea behind this project. The purpose of it was to combat scalpers and bots when purchasing the desired out of stock product for myself and people around me. When Best Buy "drops" new batches of technology (like the PS5, XBOX, Nvidia Gpus), buyers have minutes if not seconds to add products to cart to purchase. This code gives an edge over other buyers and has sucesffuly worked for me and the people around me.  
+The recent tech/GPU shortage fueled the idea behind this project. The purpose of it was to combat scalpers and bots when purchasing the desired out of stock product for myself and people around me. When Best Buy "drops" new batches of technology (like the PS5, XBOX, Nvidia Gpus), buyers have minutes if not seconds to add products to cart to purchase. This code gives an edge over other buyers and has successfully worked for me and the people around me.  
 
 # Functions 
 notif(body) is used to send an email or a text message to user/s notifying them when their desired BestBuy product goes on sale. This notification is only sent out when there is change from "Sold Out" to "Add to Cart", this way users are not recieving notifications every second. 
